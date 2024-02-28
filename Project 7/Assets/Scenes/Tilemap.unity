@@ -9768,7 +9768,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 162}
-  m_SizeDelta: {x: 307.8864, y: 284.4626}
+  m_SizeDelta: {x: 1063, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1244384179
 MonoBehaviour:
@@ -11045,7 +11045,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.009140849, y: -0.03199151}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11056,7 +11056,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.91543776, y: 1.1103333}
+  m_Size: {x: 0.45232135, y: 1.0463502}
   m_EdgeRadius: 0
 --- !u!70 &1379456353
 CapsuleCollider2D:
@@ -38255,8 +38255,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 162}
-  m_SizeDelta: {x: 307.8864, y: 284.4626}
+  m_AnchoredPosition: {x: -13, y: 163}
+  m_SizeDelta: {x: 1063, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602285589
 MonoBehaviour:
@@ -38438,17 +38438,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611671536}
-  m_LocalRotation: {x: -0, y: 0, z: -1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1760592164}
-  m_LocalEulerAnglesHint: {x: -180, y: -180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -307, y: 37}
-  m_SizeDelta: {x: 307.8864, y: 284.4626}
+  m_AnchoredPosition: {x: 1, y: 166}
+  m_SizeDelta: {x: 1063, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611671538
 MonoBehaviour:
@@ -40487,9 +40487,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Map","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Map","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 1760592160}
 --- !u!4 &1911860637
 Transform:
   m_ObjectHideFlags: 0
